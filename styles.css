@@ -1,0 +1,91 @@
+main {
+    width: 180px;
+}
+
+ul {
+    list-style-type: circle;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+ol {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+p:nth-of-type(1) {
+    text-align: right;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul>li:nth-child(2),
+ul>li:nth-child(3) {
+    font-style: italic;
+}
+
+ol li:nth-child(1) {
+    color: blue;
+}
+
+ol li:nth-child(2) {
+    color: pink;
+}
+
+ul li:nth-child(1) {
+    color: red;
+}
+
+ul li:nth-child(2) {
+    color: orange;
+}
+
+ul li:nth-child(3) {
+    color: yellow;
+}
+
+ol[start='3']>li:nth-child(1) {
+    color: brown;
+    font-style: italic;
+}
+
+ol[start='3']>li:nth-child(2) {
+    color: gray;
+}
+
+ol[type="I"]>li:nth-child(1) {
+    color: teal;
+}
+
+ol[type="I"]>li:nth-child(2) {
+    color: limegreen;
+}
+
+ol[type="I"]>li:nth-child(3) {
+    color: green;
+}
+
+button {
+    margin-top: 50px;
+    background-color: #d94800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+button:hover {
+    background-color: #0056b3;
+}
